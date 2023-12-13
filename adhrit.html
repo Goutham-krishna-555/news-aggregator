@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Peak News addition page</title>
+    <link rel="stylesheet" href="adhrit.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Add News</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Title</label>
+        </div>
+        <div class="txt_field">
+            <input type="source" required>
+            <span></span>
+            <label>source</label>
+        </div>
+        <div class="content">
+          <input type="content" required>
+          <span></span>
+          <label>Description</label>
+        </div>
+        <div class="img_field">
+            <input type="file" id="thumbnail" accept="image/*" required>
+            <label for="thumbnail"></label>
+        </div>
+        <br>
+        <input type ='button' button="submit" value="Submit" onclick="alert('Your news has been added.')">
+        <div class="cancel">
+            <a href="login.html">Cancel</a>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
